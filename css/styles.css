@@ -1,20 +1,32 @@
 
 
 :root {
-    --color-blue-section: #2F303A;
+    
     --color-blue-letters: #2196F3;
+
+    --color-blue-section: #2F303A;
+
     --color-black-h:#212121;
+    --color-black-logo: #000000;
+    
     --color-grey-p:#757575;
+    --color-grey-button: #F5F4FA;
+    
     --color-white-text:#FFFFFF;
-    --color-grey-button:#F5F4FA;
     --color-white-background:#EEEEEE;
-    --color-black-logo:#000000;
-    --color-white-background2:F5F5F5;
+    --color-white-background2: #F5F5F5;
+
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--color-black-h);
+}
+
+/* -------------reset-------------  */
+
+*h1, h2, h3, h4, h5, h6, p, ul {
+    margin:0;
 }
 
 .list {
@@ -25,10 +37,15 @@ body {
     text-decoration:none
 }
 
-/* font-family: 'Raleway', sans-serif; */
+/* -------------reset-------------  */
 
-/* header */
+/*------------container---------------*/
 
+.container {
+    width:1200px;
+}
+
+/*------------container---------------*/
 
 /*Web Studio design */
 
