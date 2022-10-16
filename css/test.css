@@ -1,0 +1,117 @@
+/*  module 3 block model video 2*/
+
+.flex-container {
+display:flex;
+flex-direction: column;
+}
+
+.flex-element {
+width:50px;
+height:50px;
+color:white;
+background-color: red;
+margin:20px;
+border-radius:6px;
+}
+
+/*  1. Flex 
+flex-elements subordinate to father which is flex (flex-container)
+and are positioned one after another.
+Direction of axis (vis') by default is row.
+flex-direction: columns - so they're in a column.
+row-reverse: elements go from last to first, and
+positioned on the left corner go 4, 3, 2, 1
+columns-reverse: documents go in column, from 4th to 1st.
+says on practice he hasn't used ...-reverse;
+
+*/
+
+
+
+
+
+
+/* .block {
+    width:150px;
+    height:150px;
+    margin: 10px;
+    padding:10px;
+    background-color:red;
+    border: 4px solid yellow;
+    box-sizing:border-box;
+}
+
+.block:first-child {
+    margin-left:auto;
+}
+*/
+
+/*     ---6---
+.block:first-child {
+    margin-top:60px;
+    margin-bottom:40px;
+}
+*/
+/*
+.block:nth-child(2) {
+    margin-top:40px;
+
+}*/
+
+/*================
+intro
+==================
+/* ---1---
+<body>
+    <div class="block">test text</div>
+</body>
+parent - body
+child - div
+
+width of div is body's width - all screen.
+
+*/
+
+/* ---2---
+
+block element takes all width of parent element
+it's placed in rows, never mind the set width&height
+it occupies all width of parent element (in this case it's body)
+
+*/
+
+/* ---3---
+
+if div (block) change to span (which is a row element) 
+then height and width won't affect anything, just won't work.
+
+to make span a block element, hay que add display:block
+it makes it in a rows again, like in 1 and 2.
+
+*/
+
+/* ---4---hybrid inline-block
+
+to inline element display:inline-block makes it block
+but this block is positioned inline
+
+to block element nothing changes when given display:block
+
+to block element it makes it inline when display:inline-block
+
+*/
+
+/* ---5---choosing list items
+
+.block:first-child {}
+it's not a property, but an element
+
+*/
+
+/* ---6---CXJIOIIyBAHHIA
+
+yaksho element 1 margin bottom 20 a element 2 margin bottom 50
+to margin mizh nimi bude 50 (a 20 ignoruietsia)
+
+*/
+
