@@ -211,11 +211,11 @@ img {
 }
 
 .features-item {
-    margin:30px;
+    gap:30px;
     }
 
 .features-header {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 
     font-weight: 700;
     font-size: 14px;
@@ -231,6 +231,7 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-grey-p);
+
 }
 
 /*++++++++++features++++++++++*/
