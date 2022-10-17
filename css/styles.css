@@ -282,12 +282,9 @@ margin:30px;
     display:flex;
 }
 
-.our-team-card {
-    text-align:center;
-}
-
 .our-team-item {
     padding:15px;
+    text-align: center;
 }
 
 .our-team-name {
