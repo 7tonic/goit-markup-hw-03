@@ -24,7 +24,7 @@ body {
 
 /*----------reset-----------*/
 
-*h1, 
+h1, 
 h2, 
 h3, 
 h4, 
@@ -57,6 +57,7 @@ img {
 .container {
     width:1200px;
     margin: 0 auto;
+    padding: 0 15px;
     }
 
 .section {
@@ -69,7 +70,7 @@ img {
 /*++++++++++header++++++++++*/
 
 .header {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 /*----------logo-design-----------*/
@@ -92,25 +93,25 @@ img {
 .header-flex {
     display: flex;
     align-items: center;
-    padding: 32px 0px;
 }
 .header-nav {
     margin-left: 93px;
 }
 .address-list {
     display:flex;
-    margin-left:344px;
-    gap:50px;
+    margin-left:auto;
+    
 }
 .nav-list {
     display: flex;
-    gap:50px;
 }
 /*----------header-flex-----------*/
 
 /*----------header-style-----------*/
 .nav-link,
  .address-link {
+    display:block;
+    padding: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -149,12 +150,6 @@ img {
 
 .hero {
     padding:200px 0;
-
-}
-
-.hero-background {
-    width:1600px;
-    height:600px;
     margin-left:auto;
     margin-right:auto;
     background-color: var(--color-blue-section);
@@ -208,10 +203,11 @@ img {
 
 .features-list {
     display:flex;
+    gap:30px;
 }
 
 .features-item {
-    gap:30px;
+    width:270px;
     }
 
 .features-header {
@@ -239,10 +235,11 @@ img {
 /*++++++++++about-us++++++++++*/
 
 .about-us {
-    margin-bottom:94px;
+   
 }
 
 .about-us-header {
+    margin-bottom:50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -253,10 +250,10 @@ img {
 
 .about-us-list {
     display:flex;
+    gap:30px;
 }
 
 .about-us-item {
-margin:30px;
 }
 
 /*++++++++++about-us++++++++++*/
@@ -264,7 +261,7 @@ margin:30px;
 /*++++++++++our-team++++++++++*/
 
 .our-team {
-    margin-bottom: 94px;
+background-color:#F5F4FA;
 }
 
 .our-team-header {
@@ -280,14 +277,21 @@ margin:30px;
 
 .out-team-list {
     display:flex;
+    gap:30px;
 }
 
 .our-team-item {
-    padding:15px;
     text-align: center;
+    background-color:url(4853.jpg);
+    border-radius: 0px;
+}
+
+.team-wrapper {
+    padding:30px 0;
 }
 
 .our-team-name {
+    margin-bottom:10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -317,6 +321,7 @@ margin:30px;
 
 .footer-address {
     font-style:normal;
+    margin-top:20px;
 }
 
 .footer-logo {
@@ -363,7 +368,18 @@ margin:30px;
 /*===========portfolio-page==========*/
 
 /*++++++++++portfolio-cards++++++++++*/
+
+.portfolio-wrapper {
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top:none;
+    /*width:370px; - збільшує висоту */
+    /* без width:370px; має ширину 404px; Не розумію, бо воно ж 
+    box-sizing:border-box і не повинно міняти розмір */
+}
+
 .portfolio-card-title {
+    margin-bottom:4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -384,6 +400,7 @@ margin:30px;
 /*++++++++++button++++++++++*/
 
 .portfolio-button {
+    padding: 6px 22px;
     font-family:inherit;
     background-color: var(--color-grey-button);
     border-radius: 4px;
@@ -407,7 +424,7 @@ margin:30px;
 .portfolio-buttons-list {
     display:flex;
     justify-content:center;
-    gap:4px;
+    gap:8px;
     margin-bottom:50px;
 }
 
@@ -415,7 +432,7 @@ margin:30px;
     display:flex;
     flex-wrap:wrap;
     gap:30px;
-    text-align:left;
+
 }
 
 /*++++++++++portfolio-flex++++++++++*/
